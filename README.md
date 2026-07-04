@@ -34,9 +34,6 @@ python -m unusual_commit_scanner <github_user>/<repo> [--limit 300] [--out resul
 python -m unusual_commit_scanner /path/to/local/repo
 ```
 
-Note: the YARA rules and popular-package lists that back the supply-chain heuristics
-(`unusual_commit_scanner/resources/`) aren't included in this repo; those checks no-op
-gracefully without them, everything else works as-is.
 
 ## Results so far
 
@@ -85,6 +82,8 @@ with the upper tail of ordinary commit weirdness:
   - `yara_rules.py` — YARA rule loading/scanning
   - `detect.py` — combines every signal into one score + natural-language explanations
   - `models.py` — shared dataclasses
+  - `resources/` — vendored guarddog YARA rules (+ new C++/C#/Rust coverage), popular-package
+    lists (npm/PyPI/Go/RubyGems), disposable-email-domain list
 - `plots/` — eval charts referenced above
 
 ## Attribution
