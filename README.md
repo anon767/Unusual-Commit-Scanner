@@ -30,9 +30,13 @@ contributing signal (not just a bare score).
 
 ```
 pip install -r requirements.txt   # GitPython, numpy, yara-python, python-whois, disposable-email-domains
-python3 unusual_git_commit.py <github_user>/<repo> [--limit 300] [--out result.tsv]
-python3 unusual_git_commit.py /path/to/local/repo
+python -m unusual_commit_scanner <github_user>/<repo> [--limit 300] [--out result.tsv]
+python -m unusual_commit_scanner /path/to/local/repo
 ```
+
+Note: the YARA rules and popular-package lists that back the supply-chain heuristics
+(`unusual_commit_scanner/resources/`) aren't included in this repo; those checks no-op
+gracefully without them, everything else works as-is.
 
 ## Results so far
 
@@ -70,7 +74,17 @@ with the upper tail of ordinary commit weirdness:
 
 ## Layout
 
-- `unusual_git_commit.py` — the scanner
+- `unusual_commit_scanner/` — the scanner, as a proper package:
+  - `cli.py` / `__main__.py` — command-line entry point
+  - `extract.py` — walks commit diffs into `CommitRow`s (LOC/file stats, filetypes, manifest
+    dependency changes, new binaries, YARA hits)
+  - `stats.py` — statistical rarity scoring (power-law tail fits, circular hour/weekday density,
+    gap/churn/directory/signing/mismatch/filetype checks)
+  - `supply_chain.py` — typosquatting, disposable-email, WHOIS domain-age, direct-URL-dependency
+    heuristics
+  - `yara_rules.py` — YARA rule loading/scanning
+  - `detect.py` — combines every signal into one score + natural-language explanations
+  - `models.py` — shared dataclasses
 - `plots/` — eval charts referenced above
 
 ## Attribution
