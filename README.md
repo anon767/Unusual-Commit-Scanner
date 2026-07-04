@@ -38,10 +38,9 @@ python3 unusual_git_commit.py /path/to/local/repo
 
 - **Recall**: 2 of 4 tested real-world attacks caught (node-ipc's `peacenotwar` sabotage,
   the xz-utils backdoor); colors.js's sabotage and event-stream's `flatmap-stream` dependency
-  are still missed — see `FPR_SUMMARY.md` for why.
+  are still missed.
 - **False positive rate**: ~1.0% (24/2400) across 8 clean repos spanning Python, JS, Go, Rust,
   and Ruby.
-- Full methodology, per-repo numbers, and known limitations are in `FPR_SUMMARY.md`.
 
 ### Metrics
 
@@ -72,10 +71,7 @@ with the upper tail of ordinary commit weirdness:
 ## Layout
 
 - `unusual_git_commit.py` — the scanner
-- `calibrate_threshold.py` — threshold calibration against known-clean repos
-- `resources/` — vendored guarddog YARA rules + popular-package lists + disposable-email list
-- `fpr_results_*/`, `real_attack_tests*/` — historical test run outputs
-- `FPR_SUMMARY.md` — detailed results log across every iteration of this project
+- `plots/` — eval charts referenced above
 
 ## Attribution
 
