@@ -1,0 +1,5 @@
+GitPython
+numpy
+yara-python
+python-whois
+disposable-email-domains

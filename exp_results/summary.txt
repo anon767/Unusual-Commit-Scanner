@@ -1,0 +1,370 @@
+=== branch 0 ===
+Extracting commit stats ...
+
+=== branch 1 ===
+Extracting commit stats ...
+210 non-merge commits found; scoring last 200 ...
+
+/tmp/experiments_scan: 200 commits scored, 0 flagged Unusual (score >= 0.9)
+
+
+Wrote /tmp/exp_results/branch_1.tsv
+
+=== branch 10 ===
+Extracting commit stats ...
+126 non-merge commits found; scoring last 126 ...
+
+/tmp/experiments_scan: 126 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  a45c441  noreply@local                  score=0.956
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.16)
+      - Lines of code added (score 0.13)
+
+Wrote /tmp/exp_results/branch_10.tsv
+
+=== branch 11 ===
+Extracting commit stats ...
+
+=== branch 12 ===
+Extracting commit stats ...
+
+=== branch 13 ===
+Extracting commit stats ...
+
+=== branch 14 ===
+Extracting commit stats ...
+
+=== branch 16 ===
+Extracting commit stats ...
+
+=== branch 17 ===
+Extracting commit stats ...
+
+=== branch 18 ===
+Extracting commit stats ...
+
+=== branch 19 ===
+Extracting commit stats ...
+=== branch 19 ===
+Extracting commit stats ...
+
+=== branch 20 ===
+Extracting commit stats ...
+
+=== branch 21 ===
+Extracting commit stats ...
+
+=== branch 22 ===
+Extracting commit stats ...
+
+=== branch 23 ===
+Extracting commit stats ...
+
+=== branch 24 ===
+Extracting commit stats ...
+
+=== branch 25 ===
+Extracting commit stats ...
+115 non-merge commits found; scoring last 115 ...
+
+/tmp/experiments_scan: 115 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  d71a71b  noreply@local                  score=0.962
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.24)
+      - Lines of code added (score 0.15)
+
+Wrote /tmp/exp_results/branch_25.tsv
+
+=== branch 26 ===
+Extracting commit stats ...
+64 non-merge commits found; scoring last 64 ...
+
+/tmp/experiments_scan: 64 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  ad56a08  noreply@local                  score=0.961
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.23)
+      - Lines of code removed (score 0.15)
+
+Wrote /tmp/exp_results/branch_26.tsv
+
+=== branch 27 ===
+Extracting commit stats ...
+73 non-merge commits found; scoring last 73 ...
+
+/tmp/experiments_scan: 73 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  1fd8f27  noreply@local                  score=0.960
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.22)
+      - Lines of code added (score 0.14)
+
+Wrote /tmp/exp_results/branch_27.tsv
+
+=== branch 28 ===
+Extracting commit stats ...
+79 non-merge commits found; scoring last 79 ...
+
+/tmp/experiments_scan: 79 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  4eeb0be  noreply@local                  score=0.962
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.25)
+      - Lines of code removed (score 0.15)
+
+Wrote /tmp/exp_results/branch_28.tsv
+
+=== branch 29 ===
+Extracting commit stats ...
+70 non-merge commits found; scoring last 70 ...
+
+/tmp/experiments_scan: 70 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  c3f2516  noreply@local                  score=0.960
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.20)
+      - Lines of code removed (score 0.15)
+
+Wrote /tmp/exp_results/branch_29.tsv
+
+=== branch 3 ===
+Extracting commit stats ...
+
+=== branch 30 ===
+Extracting commit stats ...
+193 non-merge commits found; scoring last 193 ...
+
+/tmp/experiments_scan: 193 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  f44e929  noreply@local                  score=0.957
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.20)
+      - Lines of code added (score 0.12)
+
+Wrote /tmp/exp_results/branch_30.tsv
+
+=== branch 31 ===
+Extracting commit stats ...
+43 non-merge commits found; scoring last 43 ...
+
+/tmp/experiments_scan: 43 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  204d1ce  noreply@local                  score=0.964
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.24)
+      - Lines of code added (score 0.19)
+
+Wrote /tmp/exp_results/branch_31.tsv
+
+=== branch 32 ===
+Extracting commit stats ...
+23 non-merge commits found; scoring last 23 ...
+
+/tmp/experiments_scan: 23 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  70032bf  noreply@local                  score=0.970
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.31)
+      - Lines of code removed (score 0.22)
+
+Wrote /tmp/exp_results/branch_32.tsv
+
+=== branch 33 ===
+Extracting commit stats ...
+32 non-merge commits found; scoring last 32 ...
+
+/tmp/experiments_scan: 32 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  baf95be  noreply@local                  score=0.971
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.37)
+      - Lines of code removed (score 0.20)
+
+Wrote /tmp/exp_results/branch_33.tsv
+
+=== branch 34 ===
+Extracting commit stats ...
+136 non-merge commits found; scoring last 136 ...
+
+/tmp/experiments_scan: 136 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  3a03134  noreply@local                  score=0.960
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.22)
+      - Lines of code removed (score 0.15)
+
+Wrote /tmp/exp_results/branch_34.tsv
+
+=== branch 35 ===
+Extracting commit stats ...
+128 non-merge commits found; scoring last 128 ...
+
+/tmp/experiments_scan: 128 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  5380ae5  noreply@local                  score=0.952
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.13)
+      - Lines of code added (score 0.12)
+
+Wrote /tmp/exp_results/branch_35.tsv
+
+=== branch 36 ===
+Extracting commit stats ...
+172 non-merge commits found; scoring last 172 ...
+
+/tmp/experiments_scan: 172 commits scored, 0 flagged Unusual (score >= 0.9)
+
+
+Wrote /tmp/exp_results/branch_36.tsv
+
+=== branch 37 ===
+Extracting commit stats ...
+46 non-merge commits found; scoring last 46 ...
+
+/tmp/experiments_scan: 46 commits scored, 2 flagged Unusual (score >= 0.9)
+
+  8f57744  noreply@local                  score=0.968
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.30)
+      - Lines of code removed (score 0.18)
+  11b5b1b  df.creative@gmail.com          score=0.969
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.28)
+      - Lines of code removed (score 0.18)
+
+Wrote /tmp/exp_results/branch_37.tsv
+
+=== branch 38 ===
+Extracting commit stats ...
+25 non-merge commits found; scoring last 25 ...
+
+/tmp/experiments_scan: 25 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  d24a107  noreply@local                  score=0.981
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.56)
+      - Lines of code added (score 0.22)
+
+Wrote /tmp/exp_results/branch_38.tsv
+
+=== branch 39 ===
+Extracting commit stats ...
+46 non-merge commits found; scoring last 46 ...
+
+/tmp/experiments_scan: 46 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  fc5c3dc  noreply@local                  score=0.969
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.35)
+      - Lines of code removed (score 0.19)
+
+Wrote /tmp/exp_results/branch_39.tsv
+
+=== branch 4 ===
+Extracting commit stats ...
+
+=== branch 40 ===
+Extracting commit stats ...
+13 non-merge commits found; scoring last 13 ...
+
+/tmp/experiments_scan: 13 commits scored, 1 flagged Unusual (score >= 0.9)
+
+  01f5873  noreply@local                  score=0.977
+      - Generic message on large diff (score 0.90)
+      - Total lines of code changed (score 0.46)
+      - Lines of code removed (score 0.25)
+
+Wrote /tmp/exp_results/branch_40.tsv
+
+=== branch 41 ===
+Extracting commit stats ...
+
+=== branch 42 ===
+Extracting commit stats ...
+
+=== branch 43 ===
+Extracting commit stats ...
+
+=== branch 44 ===
+Extracting commit stats ...
+
+=== branch 45 ===
+Extracting commit stats ...
+
+=== branch 46 ===
+Extracting commit stats ...
+
+=== branch 47 ===
+Extracting commit stats ...
+Traceback (most recent call last):
+  File "/home/tom/unusual_git_commit.py", line 649, in <module>
+    main()
+    ~~~~^^
+  File "/home/tom/unusual_git_commit.py", line 617, in main
+    rows = extract_commits(repo)
+  File "/home/tom/unusual_git_commit.py", line 306, in extract_commits
+    diffs = parent.diff(commit, create_patch=True)
+  File "/home/tom/.local/lib/python3.14/site-packages/git/diff.py", line 277, in diff
+    index = diff_method(self.repo, proc)
+  File "/home/tom/.local/lib/python3.14/site-packages/git/diff.py", line 602, in _index_from_patch_format
+    handle_process_output(proc, text_list.append, None, finalize_process, decode_streams=False)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/cmd.py", line 226, in handle_process_output
+    finalizer(process)
+    ~~~~~~~~~^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/util.py", line 512, in finalize_process
+    proc.wait(**kwargs)
+    ~~~~~~~~~^^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/cmd.py", line 423, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git diff-tree c318ae13c7f39091791f41059cd1cea5932d68bb 4c67fe6d6e25fe3fd1557e45442450b4cc6dae96 -r --abbrev=40 --full-index -M -p --no-ext-diff --no-color
+
+=== branch 48 ===
+Extracting commit stats ...
+Traceback (most recent call last):
+  File "/home/tom/unusual_git_commit.py", line 649, in <module>
+    main()
+    ~~~~^^
+  File "/home/tom/unusual_git_commit.py", line 617, in main
+    rows = extract_commits(repo)
+  File "/home/tom/unusual_git_commit.py", line 306, in extract_commits
+    diffs = parent.diff(commit, create_patch=True)
+  File "/home/tom/.local/lib/python3.14/site-packages/git/diff.py", line 277, in diff
+    index = diff_method(self.repo, proc)
+  File "/home/tom/.local/lib/python3.14/site-packages/git/diff.py", line 602, in _index_from_patch_format
+    handle_process_output(proc, text_list.append, None, finalize_process, decode_streams=False)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/cmd.py", line 226, in handle_process_output
+    finalizer(process)
+    ~~~~~~~~~^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/util.py", line 512, in finalize_process
+    proc.wait(**kwargs)
+    ~~~~~~~~~^^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/cmd.py", line 423, in wait
+    raise GitCommandError(remove_password_if_present(self.args), status, errstr)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git diff-tree 948353f4bdeec41b5bf00c845c8eb04ff334e8ca 74a0e24efb779e6d6726634ca4f5af67f25d4eaf -r --abbrev=40 --full-index -M -p --no-ext-diff --no-color
+
+=== branch 49 ===
+Extracting commit stats ...
+Traceback (most recent call last):
+  File "/home/tom/unusual_git_commit.py", line 649, in <module>
+    main()
+    ~~~~^^
+  File "/home/tom/unusual_git_commit.py", line 617, in main
+    rows = extract_commits(repo)
+  File "/home/tom/unusual_git_commit.py", line 306, in extract_commits
+    diffs = parent.diff(commit, create_patch=True)
+  File "/home/tom/.local/lib/python3.14/site-packages/git/diff.py", line 277, in diff
+    index = diff_method(self.repo, proc)
+  File "/home/tom/.local/lib/python3.14/site-packages/git/diff.py", line 602, in _index_from_patch_format
+    handle_process_output(proc, text_list.append, None, finalize_process, decode_streams=False)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/cmd.py", line 226, in handle_process_output
+    finalizer(process)
+    ~~~~~~~~~^^^^^^^^^
+  File "/home/tom/.local/lib/python3.14/site-packages/git/util.py", line 512, in finalize_process
+    proc.wait(**kwargs)

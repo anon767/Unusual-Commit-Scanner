@@ -1,0 +1,44 @@
+cloning pallets/flask ...
+cloning pallets/click ...
+cloning psf/requests ...
+cloning Textualize/rich ...
+
+pallets/flask: 150 commits scored
+  threshold 0.80: 6/150 flagged (4.0%)
+  threshold 0.85: 3/150 flagged (2.0%)
+  threshold 0.90: 2/150 flagged (1.3%)
+  threshold 0.95: 0/150 flagged (0.0%)
+  threshold 0.97: 0/150 flagged (0.0%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+pallets/click: 150 commits scored
+  threshold 0.80: 8/150 flagged (5.3%)
+  threshold 0.85: 7/150 flagged (4.7%)
+  threshold 0.90: 5/150 flagged (3.3%)
+  threshold 0.95: 3/150 flagged (2.0%)
+  threshold 0.97: 0/150 flagged (0.0%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+psf/requests: 150 commits scored
+  threshold 0.80: 6/150 flagged (4.0%)
+  threshold 0.85: 3/150 flagged (2.0%)
+  threshold 0.90: 1/150 flagged (0.7%)
+  threshold 0.95: 0/150 flagged (0.0%)
+  threshold 0.97: 0/150 flagged (0.0%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+Textualize/rich: 150 commits scored
+  threshold 0.80: 21/150 flagged (14.0%)
+  threshold 0.85: 19/150 flagged (12.7%)
+  threshold 0.90: 18/150 flagged (12.0%)
+  threshold 0.95: 6/150 flagged (4.0%)
+  threshold 0.97: 4/150 flagged (2.7%)
+  threshold 0.99: 3/150 flagged (2.0%)
+
+=== combined across 600 commits from 4 clean repos ===
+  threshold 0.80: 41/600 flagged (6.8%)
+  threshold 0.85: 32/600 flagged (5.3%)
+  threshold 0.90: 26/600 flagged (4.3%)
+  threshold 0.95: 9/600 flagged (1.5%)
+  threshold 0.97: 4/600 flagged (0.7%)
+  threshold 0.99: 3/600 flagged (0.5%)

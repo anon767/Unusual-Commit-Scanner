@@ -1,0 +1,56 @@
+cloning pallets/flask ...
+cloning pallets/click ...
+cloning psf/requests ...
+cloning Textualize/rich ...
+
+pallets/flask: 150 commits scored
+  threshold 0.80: 5/150 flagged (3.3%)
+  threshold 0.85: 2/150 flagged (1.3%)
+  threshold 0.90: 2/150 flagged (1.3%)
+  threshold 0.95: 0/150 flagged (0.0%)
+  threshold 0.97: 0/150 flagged (0.0%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+  --- flagged commits @ threshold 0.97 (0) ---
+
+pallets/click: 150 commits scored
+  threshold 0.80: 6/150 flagged (4.0%)
+  threshold 0.85: 6/150 flagged (4.0%)
+  threshold 0.90: 5/150 flagged (3.3%)
+  threshold 0.95: 3/150 flagged (2.0%)
+  threshold 0.97: 0/150 flagged (0.0%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+  --- flagged commits @ threshold 0.97 (0) ---
+
+psf/requests: 150 commits scored
+  threshold 0.80: 4/150 flagged (2.7%)
+  threshold 0.85: 1/150 flagged (0.7%)
+  threshold 0.90: 1/150 flagged (0.7%)
+  threshold 0.95: 0/150 flagged (0.0%)
+  threshold 0.97: 0/150 flagged (0.0%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+  --- flagged commits @ threshold 0.97 (0) ---
+
+Textualize/rich: 150 commits scored
+  threshold 0.80: 15/150 flagged (10.0%)
+  threshold 0.85: 13/150 flagged (8.7%)
+  threshold 0.90: 13/150 flagged (8.7%)
+  threshold 0.95: 3/150 flagged (2.0%)
+  threshold 0.97: 1/150 flagged (0.7%)
+  threshold 0.99: 0/150 flagged (0.0%)
+
+  --- flagged commits @ threshold 0.97 (1) ---
+  f82a399  willmcgugan@gmail.com          score=0.973
+      - Author/committer email mismatch (score 0.85)
+      - Commit message length (score 0.31)
+      - Inter-commit gap rarity (author) (score 0.28)
+
+=== combined across 600 commits from 4 clean repos ===
+  threshold 0.80: 30/600 flagged (5.0%)
+  threshold 0.85: 22/600 flagged (3.7%)
+  threshold 0.90: 21/600 flagged (3.5%)
+  threshold 0.95: 6/600 flagged (1.0%)
+  threshold 0.97: 1/600 flagged (0.2%)
+  threshold 0.99: 0/600 flagged (0.0%)
