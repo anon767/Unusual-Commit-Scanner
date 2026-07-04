@@ -39,9 +39,35 @@ python3 unusual_git_commit.py /path/to/local/repo
 - **Recall**: 2 of 4 tested real-world attacks caught (node-ipc's `peacenotwar` sabotage,
   the xz-utils backdoor); colors.js's sabotage and event-stream's `flatmap-stream` dependency
   are still missed — see `FPR_SUMMARY.md` for why.
-- **False positive rate**: ~1.0% across 8 clean repos spanning Python, JS, Go, and Rust
-  (2400 commits total).
+- **False positive rate**: ~1.0% (24/2400) across 8 clean repos spanning Python, JS, Go, Rust,
+  and Ruby.
 - Full methodology, per-repo numbers, and known limitations are in `FPR_SUMMARY.md`.
+
+### Metrics
+
+| Metric | Value |
+|---|---|
+| False positive rate | 24 / 2400 commits (1.0%) across 8 clean repos, 5 ecosystems |
+| Recall on real attacks | 2 / 4 (node-ipc, xz-utils caught; colors.js, event-stream missed) |
+| Flagging threshold | 0.962 |
+| YARA rules | 54 (guarddog) + new C++/C#/Rust coverage |
+| Metadata heuristics | 5 ported from guarddog (typosquat, disposable-email, WHOIS age, bundled-binary, direct-URL dep) |
+
+### Plots
+
+**False positive rate by repo/ecosystem** — no single ecosystem or repo dominates the errors:
+
+![FPR by repo](plots/1_fpr_by_repo.png)
+
+**Real attack scores vs. the flagging threshold** — 2 of 4 clear the bar:
+
+![Recall vs threshold](plots/2_recall_vs_threshold.png)
+
+**Where real attacks land relative to the clean-commit noise floor** (log-scale commit count) —
+the two caught attacks sit out past where clean-repo commits ever reach; the two misses overlap
+with the upper tail of ordinary commit weirdness:
+
+![Score distribution](plots/3_score_distribution.png)
 
 ## Layout
 
